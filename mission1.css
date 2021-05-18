@@ -1,0 +1,126 @@
+    #pic{ 
+
+   justify-content: center;
+   padding: 30px;
+   height: 300px;
+   margin: 0px 0px;
+}
+
+.center{
+
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color: dimgrey;
+    margin: 0px 50px;
+   
+}
+
+.lilc{
+
+text-align: center;
+justify-content: center;
+font-size: 35px;
+color: dimgrey;
+margin-top: 0px ;
+
+}
+
+.section{
+
+display: flex;
+align-items: center;
+width: 100%;
+height: 100%;
+
+}
+
+#writeside{
+
+
+width: 60%;
+margin: 40px 100px;
+
+}
+
+h2{
+
+    display: flex;
+    font-family: cursive;
+    color: olive;
+    border:darkolivegreen dotted 5px;
+    border-radius: 3%;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    animation: move 12s;
+}
+
+p1{
+    display: flex;
+    font-family: cursive;
+    font: bold;
+    color: darkolivegreen;
+    border:olive dotted 5px;
+    border-radius: 3%;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    animation: changecolor 13s;
+    
+}
+
+#menu{
+    
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+
+    
+}
+
+button{
+
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid greenyellow;
+   
+}
+
+button:hover{
+    border: none;
+    background-color: greenyellow;
+    color: grey;
+
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background:springgreen;
+    color: white;
+    font-family: cursive;
+    } 
+
+
+@keyframes move{
+    from{margin: 0px;}
+    to{margin: 0px 0px 0px 260px;}
+}
+
+@keyframes changecolor{
+    0%{background-color:darkolivegreen;
+    border-color: olive;}
+   
+    50%{background-color: darkolivegreen;
+        border-color: lawngreen; }
+
+    100%{background-color: grey ;
+    border-color: lime;}
